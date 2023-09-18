@@ -9,16 +9,18 @@ function Projects(props){
                 key = {project.id}
                 className="card"
             >
-                <img src={`./${project.coverImg}`} className="img"/>
-                    <p3 className="project-discription">{project.title}</p3>
-                    <h5>{project.description}</h5>
+                <a href={project.url} target="_blank" className="icon1">
+                    <img src={`./${project.coverImg}`} className="img" />
+                </a>
+                <p3 className="project-discription">{project.title}</p3>
+                <h5>{project.description}</h5>
             </div>
         )
     })
 
     return(
         <div className="project-section">
-            <h3 className="project-headtext">Project X</h3>
+            <h3 className="project-headtext" id="projects">PROJECTS</h3>
             <section className="project-grid">
                 {projectElement}
             </section>

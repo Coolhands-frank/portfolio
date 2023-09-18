@@ -2,20 +2,24 @@ export default [
     {
         id: 1,
         title: "Quizzical",
-        description: "A simple trivia app which fetches trivia questions from a database, giving users a chance to read, answer and check answers when they are done.",
-        coverImg: "Screenshot 2023-09-17 171446.png"
+        description: "A Trivia React App which fetches trivia questions from a database, giving users the chance to read, answer and check answers when they are done.",
+        coverImg: "Screenshot 2023-09-17 171446.png",
+        url: "https://quizzical-coolhands.onrender.com"
     },
     {
         id: 2,
-        title: "Form input page",
-        description: "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
-        coverImg: "Registration-Form-in-HTML-@2x.png"
+        title: "JavaScript Documentation clone",
+        description: "A page clone of the JavaScript documentation webpage",
+        coverImg: "1_YQgaKfVzK-YpxyT3NYqJAg.png",
+        url: "https://codepen.io/Franklin66/full/XWdQbzV"
+
     },
     {
         id: 3,
-        title: "JavaScript Documentation clone",
-        description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
-        coverImg: "1_YQgaKfVzK-YpxyT3NYqJAg.png"
-
-    }
+        title: "Form input page",
+        description: "A simply designed and responsive simulation of a registration/enrollment form webpage.",
+        coverImg: "Registration-Form-in-HTML-@2x.png",
+        url: "https://codepen.io/Franklin66/full/WNwKLRX"
+    },
+    
 ]
