@@ -8,6 +8,14 @@ export default [
     },
     {
         id: 2,
+        title: "Password Generator",
+        description: "This app allow users to input desired lenght of password and generates 4 random passwords of given length",
+        coverImg: "Screenshot 2023-09-19 235646.png",
+        url: "https://password-generator-ox0i.onrender.com/"
+
+    },
+    {
+        id: 3,
         title: "JavaScript Documentation clone",
         description: "A page clone of the JavaScript documentation webpage",
         coverImg: "1_YQgaKfVzK-YpxyT3NYqJAg.png",
@@ -15,7 +23,7 @@ export default [
 
     },
     {
-        id: 3,
+        id: 4,
         title: "Form input page",
         description: "A simply designed and responsive simulation of a registration/enrollment form webpage.",
         coverImg: "Registration-Form-in-HTML-@2x.png",
