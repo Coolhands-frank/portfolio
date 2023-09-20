@@ -12,7 +12,6 @@ export default [
         description: "This app allow users to input desired lenght of password and generates 4 random passwords of given length",
         coverImg: "Screenshot 2023-09-19 235646.png",
         url: "https://password-generator-ox0i.onrender.com/"
-
     },
     {
         id: 3,

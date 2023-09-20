@@ -19,12 +19,14 @@ function Projects(props){
     })
 
     return(
-        <div className="project-section">
-            <h3 className="project-headtext" id="projects">PROJECTS</h3>
-            <section className="project-grid">
-                {projectElement}
-            </section>
-        </div>
+        <section className="project-section">
+            <div className="section-container">
+                <h3 className="project-headtext" id="projects">PROJECTS</h3>
+                <section className="project-flex">
+                    {projectElement}
+                </section>
+            </div>
+        </section>
     )
 }
 

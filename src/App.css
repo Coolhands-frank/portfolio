@@ -75,23 +75,32 @@
   
 }
 
+.section-container{
+  padding: 40px 10px;
+}
+
 .project-headtext {
   font-family: poppins;
   text-align: center;
-  padding-top: 40px;
+  padding-bottom: 25px;
   font-size: 2rem;
   font-weight: 500;
   line-height: normal;
   color: black;
 }
 
-.project-grid {
-  display: grid;
+.project-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  /*
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 3rem;
   max-width: 100%;
   margin: 0;
   padding: 3rem;
+  */
 }
 
 .project-discription {
@@ -117,6 +126,7 @@
   flex-direction: column; 
   border-color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 250px;
 }
 
 .card:hover {
