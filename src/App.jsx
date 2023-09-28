@@ -3,7 +3,7 @@ import './App.css'
 import Intro  from "./Intro"
 import Projects from "./Projects"
 import projectdata from "./projectdata"
-// import NavBar from "./NavBar"
+import NavBar from "./NavBar"
 
 function App() {
   // Store the project data into a variable called projectData
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div>
-    {/* <NavBar /> */}
+      <NavBar /> 
       <Intro />
       <Projects 
         projects = {projectData}

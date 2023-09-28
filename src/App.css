@@ -1,33 +1,31 @@
 /* NavBar Section */
-/*.nav-section{
-   background-color: black; 
-  background-color: #252525;
-  padding-top: 30px;
-  padding-right: 50px;
-  padding-left: 50px;
+.nav-section{
+  /*background-color: #252525;*/
+  background-color: rgba(255, 253, 208);
+  padding: 15px 50px;
   display: flex;
   justify-content: space-between;
 }
-*/
+
 .nav-text{
-  color: white;
+  /* color: white; */
+  
   font-family: poppins;
   font-size: 1.0rem;
   font-weight: 50;
   line-height: normal;
   font-weight: 400;
-  margin: 0;
-  padding: 0;
+  
 }
 
 .nav-text > a {
   text-decoration: none;
-  color: white;
+  color: #252525;
 }
 
 .icons-div {
   display: flex;
-  margin: 0;
+  margin: auto 0;
   padding: 0;
 }
 
@@ -47,20 +45,14 @@
   background-position: center; */
   background-color: #252525;
   height: 80vh;
-  box-shadow: 0px 8px 6.4564px rgba(0, 0, 0, 0.4);
   display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 30px;
-  margin: 0;
   /* align-items: center; */
   
   
 }
 
 .intro-div {
-  margin: 0;
-  align-self: center;
+  margin: auto;
   text-align: center;
   font-family: roboto;
   color: white;
@@ -116,7 +108,7 @@ h1{
   text-align: center;
   padding-bottom: 40px;
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: normal;
   color: #252525;
   margin-top: 0;
@@ -185,16 +177,16 @@ h1{
 }
 
 /*Media Queries*/
-@media screen and (max-width: 705px) {
+@media screen and (max-width: 700px) {
   h1{
     font-weight: 300;
-    font-size: 22px;
+    font-size: 35px;
     margin: 0;
     padding: 0;
 }
 
   .work-disc {
-    font-size: 13px;
+    font-size: 18px;
   }
 
 }

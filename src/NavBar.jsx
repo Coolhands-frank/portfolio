@@ -13,13 +13,13 @@ function NavBar(){
             </div>
             <div className="icons-div">
                 <a href="www.linkedin.com/in/franklin-elendu" target="_blank" className="icon1">
-                    <Linkedin color="white" size="25" />
+                    <Linkedin color="black" size="25" />
                 </a>
                 <a href="https://github.com/Coolhands-frank" target="_blank" className="icon2">
-                    <GitHub color="white" size="25" />
+                    <GitHub color="black" size="25" />
                 </a>
                 <a href="https://twitter.com/ElenduFranklin" target="_blank" className="icon3"> 
-                    <Twitter color="white" size="25" />
+                    <Twitter color="black" size="25" />
                 </a>
             </div>
         </nav>
