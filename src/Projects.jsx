@@ -12,8 +12,8 @@ function Projects(props){
                 <a href={project.url} target="_blank" className="icon1">
                     <img src={`./${project.coverImg}`} className="img" />
                 </a>
-                <p3 className="project-discription">{project.title}</p3>
-                <h5>{project.description}</h5>
+                <h5>{project.title}</h5>
+                <p3 className="project-description">{project.description}</p3>
             </div>
         )
     })

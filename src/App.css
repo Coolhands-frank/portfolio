@@ -1,19 +1,23 @@
 /* NavBar Section */
-.nav-section{
-  background-color: black;
+/*.nav-section{
+   background-color: black; 
+  background-color: #252525;
   padding-top: 30px;
   padding-right: 50px;
   padding-left: 50px;
   display: flex;
   justify-content: space-between;
 }
-
+*/
 .nav-text{
   color: white;
-  font-family: lobster;
-  font-size: 1.1rem;
+  font-family: poppins;
+  font-size: 1.0rem;
   font-weight: 50;
   line-height: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-text > a {
@@ -21,72 +25,101 @@
   color: white;
 }
 
+.icons-div {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
 .icons-div > .icon1 {
-  padding-right: 40px;
+  padding-right: 20px;
 }
 
 .icons-div > .icon2 {
-  padding-right: 40px;
-}
+  padding-right: 20px;
+} 
 
 /* Intro Section */
 .intro-section {
-  background-image: url("https://i.pinimg.com/736x/29/07/75/290775b3d639ba0fc77385d2b5bcb8f3.jpg");
+  /* background-image: url("https://i.pinimg.com/736x/29/07/75/290775b3d639ba0fc77385d2b5bcb8f3.jpg"); 
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; 
- /* background-color: #FFCC70; */
+  background-position: center; */
+  background-color: #252525;
   height: 80vh;
   box-shadow: 0px 8px 6.4564px rgba(0, 0, 0, 0.4);
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 30px;
+  margin: 0;
+  /* align-items: center; */
+  
   
 }
 
-.intro-div{
-  font-family: poppins;
+.intro-div {
+  margin: 0;
+  align-self: center;
+  text-align: center;
+  font-family: roboto;
   color: white;
-}
-
-.intro-div > h1 {
-  font-size: 3rem;
-  font-weight: 600;
   line-height: normal;
+  font-weight: 200;
 }
 
-.intro-div > h3 {
-  font-size: 1.5rem;
-  font-weight: 450;
-  line-height: normal;
-  margin-bottom: -5px;
-}
-
-.intro-div > p {
-  font-size: 1rem;
+h1{
   font-weight: 300;
-  line-height: normal;
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
 }
+
+.div-myname {
+  border-top: solid 1px #c4c4c4;
+  border-bottom: solid 1px #c4c4c4;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.h1span {
+  color: rgba(255, 253, 208);
+  display: block;
+  font-family: roboto;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.work-disc {
+  padding-top: 12px;
+  font-size: 23px
+}
+
 
 /* Project Section */
 .project-section {
   font-family: poppins;
-  background-color: rgba(0, 0, 0, 0);
+ /* background-color: rgba(0, 0, 0, 0); */
+ /* background-color: rgba(253, 255, 246); */
+ background-color: rgba(255, 253, 208)
   
 }
 
 .section-container{
   padding: 40px 10px;
+  margin: 0;
 }
 
 .project-headtext {
-  font-family: poppins;
+  font-family: roboto;
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 40px;
   font-size: 2rem;
   font-weight: 500;
   line-height: normal;
-  color: black;
+  color: #252525;
+  margin-top: 0;
 }
 
 .project-flex {
@@ -103,13 +136,6 @@
   */
 }
 
-.project-discription {
-  padding: 20px 0px 10px 0px;
-  font-family: roboto;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: normal;
-}
 
 .img {
   height: 10rem;
@@ -124,9 +150,10 @@
   flex: 0 0 auto;         
   display: flex;          
   flex-direction: column; 
-  border-color: black;
+  
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   width: 250px;
+  color: #252525;
 }
 
 .card:hover {
@@ -135,19 +162,44 @@
   box-shadow: 3px 3px 8px DimGrey;
 }
 
-.card > h5 {
-  font-size: 0.8rem;
-  line-height: normal;
-  font-weight: 300;
-}
 
 .card--image {
   width: 100%;
   border-radius: 9px;
 }
 
+.card h5 {
+  padding: 20px 0px 10px 0px;
+  font-family: poppins;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: normal;
+  
+}
+
+.project-description {
+  font-size: 0.8rem;
+  line-height: normal;
+  font-weight: 300;
+  
+}
+
 /*Media Queries*/
-@media (max-width: 800px){
+@media screen and (max-width: 705px) {
+  h1{
+    font-weight: 300;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+  .work-disc {
+    font-size: 13px;
+  }
+
+}
+/*
+@media (max-width: 320px){
   
 .nav-section{
     padding-right: 30px;
@@ -177,4 +229,4 @@
     padding-right: 20px;
   }
 }
-  
+  */
