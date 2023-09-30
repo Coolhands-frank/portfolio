@@ -19,9 +19,9 @@ function Projects(props){
     })
 
     return(
-        <section className="project-section">
+        <section className="project-section" id="projects">
             <div className="section-container">
-                <h3 className="project-headtext" id="projects">PROJECTS</h3>
+                <h3 className="project-headtext" >PROJECTS</h3>
                 <section className="project-flex">
                     {projectElement}
                 </section>
