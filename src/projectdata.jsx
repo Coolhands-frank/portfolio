@@ -10,7 +10,7 @@ export default [
         id: 2,
         title: "Restaurant Ordering App",
         description: "A Mock restaurant Ordering app that allows users order items ",
-        coverImg: "Screenshot 2023-10-16 204355.png",
+        coverImg: "Screenshot 2023-10-16 210818.png",
         url: "https://resturant-ordering-app.onrender.com"
     },
     {
