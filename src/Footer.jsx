@@ -20,6 +20,7 @@ function Footer(){
     return (
         <footer className="footer-section">
             <div className="footer-div">
+                <h3>elendufranklin66@gmail.com</h3>
                 <h3>@Copyright {currentYear}</h3>
                 <h4>{currentTime}</h4>
             </div>
