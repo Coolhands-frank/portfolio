@@ -12,7 +12,7 @@ function NavBar(){
                 </a>
             </div>
             <div className="icons-div">
-                <a href="www.linkedin.com/in/franklin-elendu" target="_blank" className="icon1">
+                <a href="https://linkedin.com/in/franklin-elendu" target="_blank" className="icon1">
                     <Linkedin color="black" size="25" />
                 </a>
                 <a href="https://github.com/Coolhands-frank" target="_blank" className="icon2">
