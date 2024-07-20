@@ -12,7 +12,7 @@ export default [
         title: "Movie Watchlist",
         description: `A movie watchlist web application which calls to the OMDB API with the title searched for, 
         display results and allow users add selected movie to watchlist.`,
-        coverImg: "demonstration-767983_1920.jpg",
+        coverImg: "moviewatchlist.jpg",
         url: "https://coolhands-movie-watchlist.onrender.com/"
     },
     {
@@ -20,7 +20,7 @@ export default [
         title: "Restaurant Ordering App",
         description: `A Mock restaurant Ordering web application which renders menu option for users using JavaScript,
         it allow users add/remove desired item available for order and displays a payment modal for checkout when order is completed.`,
-        coverImg: "Screenshot 2023-10-16 210818.png",
+        coverImg: "restaurantapp.png",
         url: "https://resturant-ordering-app.onrender.com"
     },
     {
